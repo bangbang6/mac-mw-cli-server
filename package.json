@@ -8,13 +8,21 @@
   },
   "dependencies": {
     "egg": "^3.17.5",
-    "egg-scripts": "2"
+    "egg-scripts": "^2.11.0",
+    "egg-socket.io": "4.1.6",
+    "egg-redis": "^2.4.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "js-base64": "^3.5.2",
+    "simple-git": "^2.20.1",
+    "user-home": "^2.0.0",
+    "ali-oss": "^6.10.0"
   },
   "devDependencies": {
-    "egg-bin": "6",
-    "egg-mock": "5",
-    "eslint": "8",
-    "eslint-config-egg": "13",
+    "egg-bin": "4.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0",
     "@pick-star/cli-mongodb": "^1.0.3"
   },
   "engines": {
